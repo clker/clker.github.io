@@ -2,29 +2,20 @@
     "articles_path":"articles",
     "theme":"default",
     "index":{},
-    "logo":"Siteasy",
+    "logo":"Deslib",
     "output":".",
-    "footer":"Siteasy - Make static site generation life easy",
+    "footer":"Deslib - Design libary for information technology",
     "add_date": true,
     "cates":{
-            "News": {}, 
-            "Docs":{
-                "link_to":"quick start",
+            "计算机科普":{
+                "link_to":"什么是电脑",
                 "order": [
-                    "quick start.md",
-                    "structure.md",
-                    "config.md",
-                    "theme development",
-                    "plugin development",
-                    "contribute"
+                    "什么是电脑.md"
                 ]
             }, 
-            "Themes":{}, 
-            "Community":{"url":"https://gitq.com/siteasy/siteasy"}, 
-            "github":{"url":"https://github.com/siteasy/siteasy"}
+            "github":{"url":"https://github.com/clker/clker.github.io"}
     },
     "plugins":{
-            "all_cates":["cate_list"],
-            "index":["Jumbotron"]
+            "all_cates":["cate_list"]
     }
 }

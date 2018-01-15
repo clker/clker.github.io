@@ -1,3 +1,3 @@
-import siteasy
+import siteasy.siteasy
 
-siteasy.run()
+siteasy.siteasy.run()
